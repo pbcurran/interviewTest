@@ -22,7 +22,7 @@ export default () => {
           <input
             type="text"
             className="form-control form-control-lg mb-2"
-            placeholder="input one"
+            placeholder="input 1"
             name="firstName"
             value={inputTextOne}
             onChange={(e) => setInputTextOne(e.target.value)}
@@ -30,7 +30,7 @@ export default () => {
           <input
             type="text"
             className="form-control form-control-lg"
-            placeholder="input two"
+            placeholder="input 2"
             name="firstName"
             value={inputTextTwo}
             onChange={(e) => setInputTextTwo(e.target.value)}
